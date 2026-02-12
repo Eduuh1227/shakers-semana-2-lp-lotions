@@ -4,7 +4,5 @@
             "type": "lotion-lp"
         }
     },
-    "order": [
-        "lotion"
-    ]
+    "order": ["lotion"]
 }
