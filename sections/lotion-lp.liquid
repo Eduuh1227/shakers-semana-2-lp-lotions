@@ -1,26 +1,18 @@
-{{ section.settings.text_id }}
+{{ section.settings.teste_lotion }}
 
 <main class="lotion">
-    <div class="container">
-        <header class="lotion_header">
-        <h1> Lotion Co. by Frederico </h1>
-        <p class="lotion_paragrafo">Conheça nossas loções</p>
-        </header>
-
-
-    </div>
-
-
-
     <article>
-        <div>
+        <h1>{{ page.title }}</h1>
+
+        <div class="lotion_container">
             {{ page.content }}
         </div>
     </article>
 </main>
+
 {% schema %}
     {
-        "name": "teste lotion",
+        "name": "teste_lotion",
         "settings": [
             {
                 "type": "text",
